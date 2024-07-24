@@ -14,7 +14,7 @@
 
  
 
-FROM quay.io/sadiyamin/VAJIRA-MD
+FROM quay.io/suhailtechinfo/suhail-v2
 RUN git clone https://github.com/sadiyamin/VAJIRA-MD/root/luv
 RUN rm -rf /root/luv/.git
 WORKDIR /root/luv
